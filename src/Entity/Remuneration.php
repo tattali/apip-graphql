@@ -21,17 +21,11 @@ class Remuneration
      */
     private $fullPackage;
 
-    /**
-     * @codeCoverageIgnore
-     */
     public function getFixedSalary(): ?int
     {
         return $this->fixedSalary;
     }
 
-    /**
-     * @codeCoverageIgnore
-     */
     public function setFixedSalary(?int $fixedSalary): self
     {
         $this->fixedSalary = $fixedSalary;
@@ -39,17 +33,11 @@ class Remuneration
         return $this;
     }
 
-    /**
-     * @codeCoverageIgnore
-     */
     public function getFullPackage(): ?int
     {
         return $this->fullPackage;
     }
 
-    /**
-     * @codeCoverageIgnore
-     */
     public function setFullPackage(?int $fullPackage): self
     {
         $this->fullPackage = $fullPackage;
